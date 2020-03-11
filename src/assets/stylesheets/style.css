@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #abb6da;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* ====================================
+      select shape
+==================================== */
+.select_shape_bigcontainer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  /* background-color: #abb6da; */
+}
+.select_shape_smallcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+}
+.shape {
+  /* width: 60px;
+  height: 60px; */
+
+  margin-right: 0.7rem;
+  border-radius: 50%;
+  /* border: 0.5px solid whitesmoke; */
+  /* border-radius: 39px; */
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  padding: 0.3rem;
+  background-color: transparent;
+  /* border: 1px solid green; */
+  border-radius: 50px;
+  background: linear-gradient(145deg, #9aa4c4, #b7c3e9);
+  box-shadow: 6px 6px 12px #919bb9, -6px -6px 12px #c5d1fb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  transition-duration: all 1000ms;
+}
+
+button:active {
+  border-radius: 50px;
+  background: #abb6da;
+  box-shadow: inset 6px 6px 12px #919bb9, inset -6px -6px 12px #c5d1fb;
+  transition-duration: all 1000ms;
+  transform: scale(0.95);
+  transform: translateY(2px);
+}
+button:focus {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #abb6da;
+  box-shadow: inset 6px 6px 12px #919bb9, inset -6px -6px 12px #c5d1fb;
+  transition-duration: all 1000ms;
+  transform: scale(0.95);
+  transform: translateY(2px);
+}
+.shape svg {
+  height: 1.3rem;
+  fill: #0e1111;
+}
